@@ -1,0 +1,35 @@
+{
+  "description": "Research-quality runs of the SYNCRONIX Research Agent (claude-sonnet-5-5), local build, 13 Nov 2026. Cost is the list-price estimate from API-reported usage.",
+  "tasks": {
+    "T1": "How does Solana's Proof of History work, and is it being replaced?",
+    "T2": "What is the current Node.js Active LTS release line and when does it reach end of life?"
+  },
+  "configurations": [
+    {
+      "name": "baseline-production",
+      "prompt": "original (fetch only when snippets are not enough)",
+      "tools": "web_search_20260209 / web_fetch_20260209",
+      "rows": [
+        { "task": "similar to T1", "searches": 4, "repeatedSearches": 1, "pagesRead": 0, "costUsd": 0.08177 }
+      ]
+    },
+    {
+      "name": "protocol-dynamic-filtering",
+      "prompt": "research protocol + read gate",
+      "tools": "web_search_20260209 / web_fetch_20260209 (citations on)",
+      "rows": [
+        { "task": "T1", "seconds": 42, "searches": 5, "repeatedSearches": 3, "pagesRead": 3, "findings": 5, "findingsCitingReadPage": 5, "unsourcedFindings": 0, "citedPassages": 0, "sourcesTraced": "3/3", "costUsd": 0.10591 },
+        { "task": "T2", "seconds": 43, "searches": 2, "repeatedSearches": 0, "pagesRead": 2, "findings": 4, "findingsCitingReadPage": 1, "unsourcedFindings": 0, "citedPassages": 0, "sourcesTraced": "7/7", "costUsd": 0.08528 }
+      ]
+    },
+    {
+      "name": "protocol-direct-tools",
+      "prompt": "research protocol + read gate",
+      "tools": "web_search_20250305 / web_fetch_20250910 (citations on)",
+      "rows": [
+        { "task": "T1", "seconds": 23, "searches": 2, "repeatedSearches": 0, "pagesRead": 2, "findings": 8, "findingsCitingReadPage": 6, "unsourcedFindings": 0, "citedPassages": 17, "sourcesTraced": "7/7", "costUsd": 0.06853 },
+        { "task": "T2", "seconds": 12, "searches": 1, "repeatedSearches": 0, "pagesRead": 2, "findings": 5, "findingsCitingReadPage": 5, "unsourcedFindings": 0, "citedPassages": 2, "sourcesTraced": "4/4", "costUsd": 0.04034 }
+      ]
+    }
+  ]
+}
