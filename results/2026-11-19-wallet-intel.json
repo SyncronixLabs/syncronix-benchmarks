@@ -1,0 +1,344 @@
+{
+  "base": "https://syncronixai.xyz",
+  "ranAt": "2026-11-19T17:32:59.940Z",
+  "summary": {
+    "wallets": 5,
+    "allLinksOnExplorer": true,
+    "keyLeaks": 0,
+    "rpcCrossCheckMatched": "5/5",
+    "traceMs": {
+      "min": 414,
+      "max": 7557
+    },
+    "aiCalls": 0
+  },
+  "rows": [
+    {
+      "wallet": "W1",
+      "network": "mainnet",
+      "intel": {
+        "ms": 4663,
+        "repeatMs": 423,
+        "repeatCached": true,
+        "transactions": 150,
+        "transactionsComplete": false,
+        "internalTransfers": 0,
+        "internalPending": true,
+        "contracts": 1,
+        "counterparties": 1,
+        "tokens": 8,
+        "rpcCrossCheck": "matched",
+        "indexerCalls": 6,
+        "links": {
+          "total": 37,
+          "onExplorer": 37
+        },
+        "keyLeak": false
+      },
+      "trace": {
+        "ms": 414,
+        "cached": true,
+        "hops": 5,
+        "stop": "contract",
+        "firstFunderProven": false,
+        "firstFunderKind": "transfer",
+        "firstFunderVerifiedBy": "rpc",
+        "graph": {
+          "nodes": 6,
+          "edges": 5,
+          "evidence": {
+            "verified": 5
+          },
+          "verifiedBy": {
+            "rpc": 4,
+            "indexer+rpc_tx": 1
+          }
+        },
+        "sharedFunder": {
+          "sampled": 50,
+          "distinctRecipients": 49,
+          "hub": true
+        },
+        "indexerCalls": 13,
+        "cachedCalls": 1,
+        "links": {
+          "total": 37,
+          "onExplorer": 37
+        },
+        "keyLeak": false
+      },
+      "aiEstimate": {
+        "ms": 449,
+        "model": "claude-haiku-5-5",
+        "inputTokens": 4365,
+        "estimatedUsd": 0.00114,
+        "maxUsd": 0.00202,
+        "reserveUsd": 0.005,
+        "factLines": 29,
+        "factLinks": 15
+      }
+    },
+    {
+      "wallet": "W2",
+      "network": "mainnet",
+      "intel": {
+        "ms": 5802,
+        "repeatMs": 460,
+        "repeatCached": true,
+        "transactions": 150,
+        "transactionsComplete": false,
+        "internalTransfers": 88,
+        "internalPending": false,
+        "contracts": 4,
+        "counterparties": 8,
+        "tokens": 1,
+        "rpcCrossCheck": "matched",
+        "indexerCalls": 6,
+        "links": {
+          "total": 55,
+          "onExplorer": 55
+        },
+        "keyLeak": false
+      },
+      "trace": {
+        "ms": 1736,
+        "cached": false,
+        "hops": 4,
+        "stop": "contract",
+        "firstFunderProven": false,
+        "firstFunderKind": "transfer",
+        "firstFunderVerifiedBy": "rpc",
+        "graph": {
+          "nodes": 5,
+          "edges": 4,
+          "evidence": {
+            "verified": 4
+          },
+          "verifiedBy": {
+            "rpc": 3,
+            "indexer+rpc_tx": 1
+          }
+        },
+        "sharedFunder": {
+          "sampled": 50,
+          "distinctRecipients": 0,
+          "hub": false
+        },
+        "indexerCalls": 2,
+        "cachedCalls": 3,
+        "links": {
+          "total": 24,
+          "onExplorer": 24
+        },
+        "keyLeak": false
+      },
+      "aiEstimate": {
+        "ms": 442,
+        "model": "claude-haiku-5-5",
+        "inputTokens": 4951,
+        "estimatedUsd": 0.0012,
+        "maxUsd": 0.00209,
+        "reserveUsd": 0.005,
+        "factLines": 36,
+        "factLinks": 22
+      }
+    },
+    {
+      "wallet": "W3",
+      "network": "mainnet",
+      "intel": {
+        "ms": 4484,
+        "repeatMs": 657,
+        "repeatCached": true,
+        "transactions": 150,
+        "transactionsComplete": false,
+        "internalTransfers": 0,
+        "internalPending": true,
+        "contracts": 1,
+        "counterparties": 2,
+        "tokens": 1,
+        "rpcCrossCheck": "matched",
+        "indexerCalls": 6,
+        "links": {
+          "total": 31,
+          "onExplorer": 31
+        },
+        "keyLeak": false
+      },
+      "trace": {
+        "ms": 1875,
+        "cached": false,
+        "hops": 5,
+        "stop": "contract",
+        "firstFunderProven": false,
+        "firstFunderKind": "transfer",
+        "firstFunderVerifiedBy": "rpc",
+        "graph": {
+          "nodes": 6,
+          "edges": 5,
+          "evidence": {
+            "verified": 5
+          },
+          "verifiedBy": {
+            "rpc": 4,
+            "indexer+rpc_tx": 1
+          }
+        },
+        "sharedFunder": {
+          "sampled": 50,
+          "distinctRecipients": 49,
+          "hub": true
+        },
+        "indexerCalls": 3,
+        "cachedCalls": 2,
+        "links": {
+          "total": 38,
+          "onExplorer": 38
+        },
+        "keyLeak": false
+      },
+      "aiEstimate": {
+        "ms": 423,
+        "model": "claude-haiku-5-5",
+        "inputTokens": 4693,
+        "estimatedUsd": 0.00117,
+        "maxUsd": 0.00206,
+        "reserveUsd": 0.005,
+        "factLines": 33,
+        "factLinks": 17
+      }
+    },
+    {
+      "wallet": "W4",
+      "network": "mainnet",
+      "intel": {
+        "ms": 4212,
+        "repeatMs": 403,
+        "repeatCached": true,
+        "transactions": 150,
+        "transactionsComplete": false,
+        "internalTransfers": 0,
+        "internalPending": true,
+        "contracts": 1,
+        "counterparties": 1,
+        "tokens": 8,
+        "rpcCrossCheck": "matched",
+        "indexerCalls": 6,
+        "links": {
+          "total": 37,
+          "onExplorer": 37
+        },
+        "keyLeak": false
+      },
+      "trace": {
+        "ms": 1914,
+        "cached": false,
+        "hops": 5,
+        "stop": "contract",
+        "firstFunderProven": false,
+        "firstFunderKind": "transfer",
+        "firstFunderVerifiedBy": "rpc",
+        "graph": {
+          "nodes": 6,
+          "edges": 5,
+          "evidence": {
+            "verified": 5
+          },
+          "verifiedBy": {
+            "rpc": 4,
+            "indexer+rpc_tx": 1
+          }
+        },
+        "sharedFunder": {
+          "sampled": 50,
+          "distinctRecipients": 49,
+          "hub": true
+        },
+        "indexerCalls": 3,
+        "cachedCalls": 2,
+        "links": {
+          "total": 37,
+          "onExplorer": 37
+        },
+        "keyLeak": false
+      },
+      "aiEstimate": {
+        "ms": 410,
+        "model": "claude-haiku-5-5",
+        "inputTokens": 4372,
+        "estimatedUsd": 0.00114,
+        "maxUsd": 0.00202,
+        "reserveUsd": 0.005,
+        "factLines": 29,
+        "factLinks": 15
+      }
+    },
+    {
+      "wallet": "W5",
+      "network": "testnet",
+      "intel": {
+        "ms": 4005,
+        "repeatMs": 671,
+        "repeatCached": true,
+        "transactions": 150,
+        "transactionsComplete": false,
+        "internalTransfers": 0,
+        "internalPending": false,
+        "contracts": 3,
+        "counterparties": 3,
+        "tokens": 2,
+        "rpcCrossCheck": "matched",
+        "indexerCalls": 6,
+        "links": {
+          "total": 35,
+          "onExplorer": 35
+        },
+        "keyLeak": false
+      },
+      "trace": {
+        "ms": 7557,
+        "cached": false,
+        "hops": 5,
+        "stop": "max_hops",
+        "firstFunderProven": true,
+        "firstFunderKind": "transfer",
+        "firstFunderVerifiedBy": "rpc",
+        "graph": {
+          "nodes": 12,
+          "edges": 17,
+          "evidence": {
+            "verified": 11,
+            "inferred": 6
+          },
+          "verifiedBy": {
+            "rpc": 5,
+            "indexer": 6,
+            "inferred": 6
+          }
+        },
+        "sharedFunder": {
+          "sampled": 50,
+          "distinctRecipients": 7,
+          "hub": false
+        },
+        "indexerCalls": 16,
+        "cachedCalls": 1,
+        "links": {
+          "total": 48,
+          "onExplorer": 48
+        },
+        "keyLeak": false
+      },
+      "aiEstimate": {
+        "ms": 436,
+        "model": "claude-haiku-5-5",
+        "inputTokens": 5407,
+        "estimatedUsd": 0.00124,
+        "maxUsd": 0.00215,
+        "reserveUsd": 0.005,
+        "factLines": 38,
+        "factLinks": 23
+      }
+    }
+  ]
+}
