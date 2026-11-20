@@ -6,7 +6,7 @@
 
 <p align="center">
   Does the research agent actually read and cite its sources, is wallet data verified, and what does each run cost?<br>
-  <a href="https://syncronixai.xyz">Website</a> · <a href="https://github.com/SyncronixLabs/syncronix-docs">Docs</a> · <a href="https://github.com/SyncronixLabs/syncronix-research">Research</a>
+  <a href="https://syncronixai.xyz">Website</a> · <a href="https://github.com/SyncronixLabs/syncronix-docs">Docs</a> · <a href="https://github.com/SyncronixLabs/syncronix-research">Research</a> · <a href="https://github.com/SyncronixLabs/syncronix-docs/blob/main/whitepaper.md">Whitepaper</a> · <a href="CHANGELOG.md">Changelog</a>
 </p>
 
 ---
@@ -180,5 +180,7 @@ tasks/default.json             two-task set used for the published results
 tasks/one.json                 single task for the public service
 results/                       published results (JSON, wallet addresses replaced by W1, W2, …)
 ```
+
+History: [CHANGELOG.md](CHANGELOG.md) · Security: [SECURITY.md](SECURITY.md)
 
 <sub>Licensed under the [MIT License](LICENSE).</sub>
