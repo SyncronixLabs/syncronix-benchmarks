@@ -134,7 +134,7 @@ never starts an AI analysis.
 
 ### Latest results
 
-*19 Nov 2026 · production (release e73d8c5) · 4 mainnet + 1 testnet address · 0 AI calls*
+*19 Nov 2026 · production (release ce78c9a) · 4 mainnet + 1 testnet address · 0 AI calls*
 
 | Wallet | Activity (first / cached) | Trace | Hops · stop | First funder | Graph edges | AI estimate (max) |
 |---|---|---|---|---|---|---|
