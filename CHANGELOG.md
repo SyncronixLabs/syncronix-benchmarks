@@ -4,6 +4,7 @@ Harnesses and results added or changed in this repository, newest first. Dates a
 
 ## 2026-11-21
 
+- Added the official $SNX contract address (Robinhood Chain mainnet) to the README.
 - Added `harness/api-conformance.mjs`: 30 documented refusals and same-site checks against the live API, free and
   without side effects. Result on production: 30/30 (`results/2026-11-21-api-conformance.json`).
 - Added `harness/fee-headroom.mjs` and `harness/fee-spike.mjs`: base fee and gas estimate movement within a 60 s
