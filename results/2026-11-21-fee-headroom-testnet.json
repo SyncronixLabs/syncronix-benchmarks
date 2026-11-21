@@ -1,0 +1,3129 @@
+{
+ "network": "testnet",
+ "chainId": 46630,
+ "rpc": "https://rpc.testnet.chain.robinhood.com",
+ "ranAt": "2026-11-21T12:28:57.473Z",
+ "rpcCalls": 2469,
+ "previewRules": {
+  "gasLimit": "estimate × 1.2",
+  "feeCap": "2 × eth_gasPrice",
+  "priorityTip": 0,
+  "validSeconds": 60
+ },
+ "history": {
+  "blocksPerSecond": 4.812,
+  "from": "2026-11-20T10:37:42.000Z",
+  "to": "2026-11-21T12:06:04.000Z",
+  "baseFeeGwei": {
+   "n": 288,
+   "min": 0.01,
+   "p50": 0.01,
+   "p90": 0.01,
+   "p99": 0.01,
+   "max": 0.01
+  },
+  "maxOverStartInWindow": {
+   "n": 288,
+   "min": 1,
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "max": 1
+  },
+  "shareAbove": {
+   "1.00": 0,
+   "1.10": 0,
+   "1.50": 0,
+   "2.00": 0
+  },
+  "windows": [
+   {
+    "block": 155833675,
+    "time": "2026-11-20T10:37:42.000Z",
+    "seconds": 76,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155835118,
+    "time": "2026-11-20T10:44:39.000Z",
+    "seconds": 81,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155836562,
+    "time": "2026-11-20T10:51:05.000Z",
+    "seconds": 75,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155838005,
+    "time": "2026-11-20T10:57:01.000Z",
+    "seconds": 67,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155839449,
+    "time": "2026-11-20T11:02:38.000Z",
+    "seconds": 76,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155840892,
+    "time": "2026-11-20T11:08:42.000Z",
+    "seconds": 74,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155842336,
+    "time": "2026-11-20T11:14:30.000Z",
+    "seconds": 52,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155843780,
+    "time": "2026-11-20T11:20:14.000Z",
+    "seconds": 66,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155845223,
+    "time": "2026-11-20T11:25:41.000Z",
+    "seconds": 63,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155846667,
+    "time": "2026-11-20T11:31:12.000Z",
+    "seconds": 70,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155848110,
+    "time": "2026-11-20T11:37:04.000Z",
+    "seconds": 62,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155849554,
+    "time": "2026-11-20T11:41:59.000Z",
+    "seconds": 47,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155850998,
+    "time": "2026-11-20T11:46:54.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155852441,
+    "time": "2026-11-20T11:51:55.000Z",
+    "seconds": 59,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155853885,
+    "time": "2026-11-20T11:57:13.000Z",
+    "seconds": 58,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155855328,
+    "time": "2026-11-20T12:02:16.000Z",
+    "seconds": 58,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155856772,
+    "time": "2026-11-20T12:07:03.000Z",
+    "seconds": 51,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155858215,
+    "time": "2026-11-20T12:11:40.000Z",
+    "seconds": 57,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155859659,
+    "time": "2026-11-20T12:16:24.000Z",
+    "seconds": 67,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155861103,
+    "time": "2026-11-20T12:21:32.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155862546,
+    "time": "2026-11-20T12:26:50.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155863990,
+    "time": "2026-11-20T12:31:47.000Z",
+    "seconds": 67,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155865433,
+    "time": "2026-11-20T12:37:29.000Z",
+    "seconds": 82,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155866877,
+    "time": "2026-11-20T12:44:13.000Z",
+    "seconds": 77,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155868321,
+    "time": "2026-11-20T12:50:38.000Z",
+    "seconds": 73,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155869764,
+    "time": "2026-11-20T12:56:57.000Z",
+    "seconds": 85,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155871208,
+    "time": "2026-11-20T13:03:19.000Z",
+    "seconds": 76,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155872651,
+    "time": "2026-11-20T13:09:35.000Z",
+    "seconds": 68,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155874095,
+    "time": "2026-11-20T13:15:38.000Z",
+    "seconds": 71,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155875538,
+    "time": "2026-11-20T13:21:52.000Z",
+    "seconds": 77,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155876982,
+    "time": "2026-11-20T13:28:06.000Z",
+    "seconds": 81,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155878426,
+    "time": "2026-11-20T13:34:39.000Z",
+    "seconds": 75,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155879869,
+    "time": "2026-11-20T13:40:39.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155881313,
+    "time": "2026-11-20T13:45:45.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155882756,
+    "time": "2026-11-20T13:50:56.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155884200,
+    "time": "2026-11-20T13:56:15.000Z",
+    "seconds": 61,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155885644,
+    "time": "2026-11-20T14:00:58.000Z",
+    "seconds": 56,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155887087,
+    "time": "2026-11-20T14:05:51.000Z",
+    "seconds": 58,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155888531,
+    "time": "2026-11-20T14:10:39.000Z",
+    "seconds": 55,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155889974,
+    "time": "2026-11-20T14:15:17.000Z",
+    "seconds": 51,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155891418,
+    "time": "2026-11-20T14:20:02.000Z",
+    "seconds": 55,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155892861,
+    "time": "2026-11-20T14:23:52.000Z",
+    "seconds": 54,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155894305,
+    "time": "2026-11-20T14:27:31.000Z",
+    "seconds": 36,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155895749,
+    "time": "2026-11-20T14:30:51.000Z",
+    "seconds": 42,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155897192,
+    "time": "2026-11-20T14:33:58.000Z",
+    "seconds": 34,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155898636,
+    "time": "2026-11-20T14:37:08.000Z",
+    "seconds": 44,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155900079,
+    "time": "2026-11-20T14:40:35.000Z",
+    "seconds": 46,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155901523,
+    "time": "2026-11-20T14:44:35.000Z",
+    "seconds": 50,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155902967,
+    "time": "2026-11-20T14:48:38.000Z",
+    "seconds": 50,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155904410,
+    "time": "2026-11-20T14:52:27.000Z",
+    "seconds": 49,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155905854,
+    "time": "2026-11-20T14:56:22.000Z",
+    "seconds": 48,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155907297,
+    "time": "2026-11-20T15:00:25.000Z",
+    "seconds": 50,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155908741,
+    "time": "2026-11-20T15:04:31.000Z",
+    "seconds": 49,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155910184,
+    "time": "2026-11-20T15:08:23.000Z",
+    "seconds": 50,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155911628,
+    "time": "2026-11-20T15:12:17.000Z",
+    "seconds": 42,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155913072,
+    "time": "2026-11-20T15:16:07.000Z",
+    "seconds": 50,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155914515,
+    "time": "2026-11-20T15:20:01.000Z",
+    "seconds": 43,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155915959,
+    "time": "2026-11-20T15:23:59.000Z",
+    "seconds": 45,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155917402,
+    "time": "2026-11-20T15:27:49.000Z",
+    "seconds": 44,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155918846,
+    "time": "2026-11-20T15:31:34.000Z",
+    "seconds": 46,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155920290,
+    "time": "2026-11-20T15:35:21.000Z",
+    "seconds": 46,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155921733,
+    "time": "2026-11-20T15:39:19.000Z",
+    "seconds": 46,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155923177,
+    "time": "2026-11-20T15:43:19.000Z",
+    "seconds": 55,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155924620,
+    "time": "2026-11-20T15:47:04.000Z",
+    "seconds": 44,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155926064,
+    "time": "2026-11-20T15:50:54.000Z",
+    "seconds": 47,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155927507,
+    "time": "2026-11-20T15:55:01.000Z",
+    "seconds": 47,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155928951,
+    "time": "2026-11-20T15:59:17.000Z",
+    "seconds": 51,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155930395,
+    "time": "2026-11-20T16:03:29.000Z",
+    "seconds": 50,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155931838,
+    "time": "2026-11-20T16:07:36.000Z",
+    "seconds": 56,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155933282,
+    "time": "2026-11-20T16:11:53.000Z",
+    "seconds": 50,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155934725,
+    "time": "2026-11-20T16:16:08.000Z",
+    "seconds": 50,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155936169,
+    "time": "2026-11-20T16:20:34.000Z",
+    "seconds": 51,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155937613,
+    "time": "2026-11-20T16:24:58.000Z",
+    "seconds": 48,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155939056,
+    "time": "2026-11-20T16:29:13.000Z",
+    "seconds": 55,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155940500,
+    "time": "2026-11-20T16:33:40.000Z",
+    "seconds": 55,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155941943,
+    "time": "2026-11-20T16:38:15.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155943387,
+    "time": "2026-11-20T16:43:04.000Z",
+    "seconds": 53,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155944830,
+    "time": "2026-11-20T16:47:30.000Z",
+    "seconds": 56,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155946274,
+    "time": "2026-11-20T16:52:28.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155947718,
+    "time": "2026-11-20T16:57:54.000Z",
+    "seconds": 65,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155949161,
+    "time": "2026-11-20T17:03:07.000Z",
+    "seconds": 59,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155950605,
+    "time": "2026-11-20T17:08:16.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155952048,
+    "time": "2026-11-20T17:13:20.000Z",
+    "seconds": 55,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155953492,
+    "time": "2026-11-20T17:18:08.000Z",
+    "seconds": 68,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155954936,
+    "time": "2026-11-20T17:23:31.000Z",
+    "seconds": 65,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155956379,
+    "time": "2026-11-20T17:28:46.000Z",
+    "seconds": 67,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155957823,
+    "time": "2026-11-20T17:34:14.000Z",
+    "seconds": 70,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155959266,
+    "time": "2026-11-20T17:39:40.000Z",
+    "seconds": 62,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155960710,
+    "time": "2026-11-20T17:45:42.000Z",
+    "seconds": 69,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155962153,
+    "time": "2026-11-20T17:51:50.000Z",
+    "seconds": 83,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155963597,
+    "time": "2026-11-20T17:58:12.000Z",
+    "seconds": 82,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155965041,
+    "time": "2026-11-20T18:04:16.000Z",
+    "seconds": 71,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155966484,
+    "time": "2026-11-20T18:10:26.000Z",
+    "seconds": 71,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155967928,
+    "time": "2026-11-20T18:16:35.000Z",
+    "seconds": 73,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155969371,
+    "time": "2026-11-20T18:21:57.000Z",
+    "seconds": 80,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155970815,
+    "time": "2026-11-20T18:27:57.000Z",
+    "seconds": 67,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155972259,
+    "time": "2026-11-20T18:33:50.000Z",
+    "seconds": 74,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155973702,
+    "time": "2026-11-20T18:39:21.000Z",
+    "seconds": 67,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155975146,
+    "time": "2026-11-20T18:44:49.000Z",
+    "seconds": 61,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155976589,
+    "time": "2026-11-20T18:50:01.000Z",
+    "seconds": 65,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155978033,
+    "time": "2026-11-20T18:55:06.000Z",
+    "seconds": 54,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155979476,
+    "time": "2026-11-20T19:00:02.000Z",
+    "seconds": 47,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155980920,
+    "time": "2026-11-20T19:05:04.000Z",
+    "seconds": 62,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155982364,
+    "time": "2026-11-20T19:09:46.000Z",
+    "seconds": 57,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155983807,
+    "time": "2026-11-20T19:14:38.000Z",
+    "seconds": 67,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155985251,
+    "time": "2026-11-20T19:19:50.000Z",
+    "seconds": 62,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155986694,
+    "time": "2026-11-20T19:25:10.000Z",
+    "seconds": 56,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155988138,
+    "time": "2026-11-20T19:30:17.000Z",
+    "seconds": 61,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155989582,
+    "time": "2026-11-20T19:35:26.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155991025,
+    "time": "2026-11-20T19:40:34.000Z",
+    "seconds": 62,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155992469,
+    "time": "2026-11-20T19:45:45.000Z",
+    "seconds": 52,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155993912,
+    "time": "2026-11-20T19:50:49.000Z",
+    "seconds": 57,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155995356,
+    "time": "2026-11-20T19:56:03.000Z",
+    "seconds": 61,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155996799,
+    "time": "2026-11-20T20:01:05.000Z",
+    "seconds": 54,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155998243,
+    "time": "2026-11-20T20:06:05.000Z",
+    "seconds": 67,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 155999687,
+    "time": "2026-11-20T20:11:47.000Z",
+    "seconds": 71,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156001130,
+    "time": "2026-11-20T20:17:25.000Z",
+    "seconds": 68,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156002574,
+    "time": "2026-11-20T20:22:49.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156004017,
+    "time": "2026-11-20T20:27:31.000Z",
+    "seconds": 71,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156005461,
+    "time": "2026-11-20T20:32:45.000Z",
+    "seconds": 63,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156006905,
+    "time": "2026-11-20T20:38:12.000Z",
+    "seconds": 71,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156008348,
+    "time": "2026-11-20T20:44:13.000Z",
+    "seconds": 78,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156009792,
+    "time": "2026-11-20T20:50:16.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156011235,
+    "time": "2026-11-20T20:55:58.000Z",
+    "seconds": 70,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156012679,
+    "time": "2026-11-20T21:01:53.000Z",
+    "seconds": 65,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156014122,
+    "time": "2026-11-20T21:07:49.000Z",
+    "seconds": 82,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156015566,
+    "time": "2026-11-20T21:14:06.000Z",
+    "seconds": 69,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156017010,
+    "time": "2026-11-20T21:20:26.000Z",
+    "seconds": 63,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156018453,
+    "time": "2026-11-20T21:26:31.000Z",
+    "seconds": 76,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156019897,
+    "time": "2026-11-20T21:33:02.000Z",
+    "seconds": 89,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156021340,
+    "time": "2026-11-20T21:39:48.000Z",
+    "seconds": 70,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156022784,
+    "time": "2026-11-20T21:45:48.000Z",
+    "seconds": 83,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156024228,
+    "time": "2026-11-20T21:51:42.000Z",
+    "seconds": 78,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156025671,
+    "time": "2026-11-20T21:58:08.000Z",
+    "seconds": 82,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156027115,
+    "time": "2026-11-20T22:04:45.000Z",
+    "seconds": 79,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156028558,
+    "time": "2026-11-20T22:11:11.000Z",
+    "seconds": 80,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156030002,
+    "time": "2026-11-20T22:17:27.000Z",
+    "seconds": 82,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156031445,
+    "time": "2026-11-20T22:24:23.000Z",
+    "seconds": 75,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156032889,
+    "time": "2026-11-20T22:31:25.000Z",
+    "seconds": 96,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156034333,
+    "time": "2026-11-20T22:39:19.000Z",
+    "seconds": 83,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156035776,
+    "time": "2026-11-20T22:47:04.000Z",
+    "seconds": 96,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156037220,
+    "time": "2026-11-20T22:54:36.000Z",
+    "seconds": 87,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156038663,
+    "time": "2026-11-20T23:01:57.000Z",
+    "seconds": 87,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156040107,
+    "time": "2026-11-20T23:09:06.000Z",
+    "seconds": 57,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156041551,
+    "time": "2026-11-20T23:15:33.000Z",
+    "seconds": 89,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156042994,
+    "time": "2026-11-20T23:21:53.000Z",
+    "seconds": 38,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156044438,
+    "time": "2026-11-20T23:25:31.000Z",
+    "seconds": 41,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156045881,
+    "time": "2026-11-20T23:29:24.000Z",
+    "seconds": 47,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156047325,
+    "time": "2026-11-20T23:33:27.000Z",
+    "seconds": 49,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156048768,
+    "time": "2026-11-20T23:37:33.000Z",
+    "seconds": 51,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156050212,
+    "time": "2026-11-20T23:41:43.000Z",
+    "seconds": 53,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156051656,
+    "time": "2026-11-20T23:45:58.000Z",
+    "seconds": 49,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156053099,
+    "time": "2026-11-20T23:50:28.000Z",
+    "seconds": 50,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156054543,
+    "time": "2026-11-20T23:54:48.000Z",
+    "seconds": 44,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156055986,
+    "time": "2026-11-20T23:59:04.000Z",
+    "seconds": 54,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156057430,
+    "time": "2026-11-21T00:03:03.000Z",
+    "seconds": 48,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156058874,
+    "time": "2026-11-21T00:06:55.000Z",
+    "seconds": 45,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156060317,
+    "time": "2026-11-21T00:10:36.000Z",
+    "seconds": 44,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156061761,
+    "time": "2026-11-21T00:14:22.000Z",
+    "seconds": 40,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156063204,
+    "time": "2026-11-21T00:18:00.000Z",
+    "seconds": 45,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156064648,
+    "time": "2026-11-21T00:21:39.000Z",
+    "seconds": 42,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156066091,
+    "time": "2026-11-21T00:25:25.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156067535,
+    "time": "2026-11-21T00:30:57.000Z",
+    "seconds": 80,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156068979,
+    "time": "2026-11-21T00:36:56.000Z",
+    "seconds": 66,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156070422,
+    "time": "2026-11-21T00:41:57.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156071866,
+    "time": "2026-11-21T00:47:06.000Z",
+    "seconds": 62,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156073309,
+    "time": "2026-11-21T00:51:59.000Z",
+    "seconds": 54,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156074753,
+    "time": "2026-11-21T00:56:38.000Z",
+    "seconds": 61,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156076197,
+    "time": "2026-11-21T01:01:22.000Z",
+    "seconds": 61,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156077640,
+    "time": "2026-11-21T01:06:46.000Z",
+    "seconds": 67,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156079084,
+    "time": "2026-11-21T01:12:06.000Z",
+    "seconds": 65,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156080527,
+    "time": "2026-11-21T01:17:54.000Z",
+    "seconds": 81,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156081971,
+    "time": "2026-11-21T01:24:25.000Z",
+    "seconds": 73,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156083414,
+    "time": "2026-11-21T01:29:55.000Z",
+    "seconds": 61,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156084858,
+    "time": "2026-11-21T01:35:01.000Z",
+    "seconds": 63,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156086302,
+    "time": "2026-11-21T01:40:51.000Z",
+    "seconds": 74,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156087745,
+    "time": "2026-11-21T01:46:24.000Z",
+    "seconds": 62,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156089189,
+    "time": "2026-11-21T01:51:47.000Z",
+    "seconds": 77,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156090632,
+    "time": "2026-11-21T01:57:59.000Z",
+    "seconds": 76,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156092076,
+    "time": "2026-11-21T02:03:38.000Z",
+    "seconds": 63,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156093520,
+    "time": "2026-11-21T02:09:11.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156094963,
+    "time": "2026-11-21T02:14:46.000Z",
+    "seconds": 63,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156096407,
+    "time": "2026-11-21T02:20:22.000Z",
+    "seconds": 57,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156097850,
+    "time": "2026-11-21T02:25:27.000Z",
+    "seconds": 59,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156099294,
+    "time": "2026-11-21T02:30:05.000Z",
+    "seconds": 55,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156100737,
+    "time": "2026-11-21T02:34:47.000Z",
+    "seconds": 55,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156102181,
+    "time": "2026-11-21T02:39:26.000Z",
+    "seconds": 56,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156103625,
+    "time": "2026-11-21T02:43:47.000Z",
+    "seconds": 52,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156105068,
+    "time": "2026-11-21T02:48:48.000Z",
+    "seconds": 59,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156106512,
+    "time": "2026-11-21T02:53:45.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156107955,
+    "time": "2026-11-21T02:58:32.000Z",
+    "seconds": 65,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156109399,
+    "time": "2026-11-21T03:03:08.000Z",
+    "seconds": 63,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156110843,
+    "time": "2026-11-21T03:07:57.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156112286,
+    "time": "2026-11-21T03:12:59.000Z",
+    "seconds": 70,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156113730,
+    "time": "2026-11-21T03:18:55.000Z",
+    "seconds": 70,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156115173,
+    "time": "2026-11-21T03:24:40.000Z",
+    "seconds": 62,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156116617,
+    "time": "2026-11-21T03:29:55.000Z",
+    "seconds": 61,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156118060,
+    "time": "2026-11-21T03:35:19.000Z",
+    "seconds": 65,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156119504,
+    "time": "2026-11-21T03:41:08.000Z",
+    "seconds": 63,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156120948,
+    "time": "2026-11-21T03:46:47.000Z",
+    "seconds": 73,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156122391,
+    "time": "2026-11-21T03:52:42.000Z",
+    "seconds": 72,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156123835,
+    "time": "2026-11-21T03:58:29.000Z",
+    "seconds": 63,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156125278,
+    "time": "2026-11-21T04:03:49.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156126722,
+    "time": "2026-11-21T04:09:12.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156128166,
+    "time": "2026-11-21T04:14:35.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156129609,
+    "time": "2026-11-21T04:19:41.000Z",
+    "seconds": 59,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156131053,
+    "time": "2026-11-21T04:24:41.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156132496,
+    "time": "2026-11-21T04:29:32.000Z",
+    "seconds": 61,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156133940,
+    "time": "2026-11-21T04:34:29.000Z",
+    "seconds": 59,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156135383,
+    "time": "2026-11-21T04:39:44.000Z",
+    "seconds": 66,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156136827,
+    "time": "2026-11-21T04:45:22.000Z",
+    "seconds": 54,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156138271,
+    "time": "2026-11-21T04:50:10.000Z",
+    "seconds": 61,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156139714,
+    "time": "2026-11-21T04:55:26.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156141158,
+    "time": "2026-11-21T05:00:55.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156142601,
+    "time": "2026-11-21T05:06:12.000Z",
+    "seconds": 62,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156144045,
+    "time": "2026-11-21T05:11:04.000Z",
+    "seconds": 49,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156145489,
+    "time": "2026-11-21T05:15:35.000Z",
+    "seconds": 53,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156146932,
+    "time": "2026-11-21T05:20:16.000Z",
+    "seconds": 53,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156148376,
+    "time": "2026-11-21T05:24:53.000Z",
+    "seconds": 52,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156149819,
+    "time": "2026-11-21T05:29:27.000Z",
+    "seconds": 55,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156151263,
+    "time": "2026-11-21T05:34:15.000Z",
+    "seconds": 54,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156152706,
+    "time": "2026-11-21T05:38:58.000Z",
+    "seconds": 65,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156154150,
+    "time": "2026-11-21T05:43:34.000Z",
+    "seconds": 55,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156155594,
+    "time": "2026-11-21T05:48:29.000Z",
+    "seconds": 63,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156157037,
+    "time": "2026-11-21T05:53:36.000Z",
+    "seconds": 61,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156158481,
+    "time": "2026-11-21T05:58:31.000Z",
+    "seconds": 61,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156159924,
+    "time": "2026-11-21T06:03:38.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156161368,
+    "time": "2026-11-21T06:08:41.000Z",
+    "seconds": 59,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156162812,
+    "time": "2026-11-21T06:13:30.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156164255,
+    "time": "2026-11-21T06:18:06.000Z",
+    "seconds": 57,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156165699,
+    "time": "2026-11-21T06:23:08.000Z",
+    "seconds": 63,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156167142,
+    "time": "2026-11-21T06:28:18.000Z",
+    "seconds": 59,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156168586,
+    "time": "2026-11-21T06:33:40.000Z",
+    "seconds": 66,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156170029,
+    "time": "2026-11-21T06:38:59.000Z",
+    "seconds": 65,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156171473,
+    "time": "2026-11-21T06:44:09.000Z",
+    "seconds": 63,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156172917,
+    "time": "2026-11-21T06:49:17.000Z",
+    "seconds": 66,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156174360,
+    "time": "2026-11-21T06:54:39.000Z",
+    "seconds": 59,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156175804,
+    "time": "2026-11-21T07:00:28.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156177247,
+    "time": "2026-11-21T07:06:14.000Z",
+    "seconds": 68,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156178691,
+    "time": "2026-11-21T07:12:10.000Z",
+    "seconds": 68,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156180135,
+    "time": "2026-11-21T07:17:33.000Z",
+    "seconds": 69,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156181578,
+    "time": "2026-11-21T07:23:40.000Z",
+    "seconds": 82,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156183022,
+    "time": "2026-11-21T07:29:48.000Z",
+    "seconds": 72,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156184465,
+    "time": "2026-11-21T07:36:09.000Z",
+    "seconds": 84,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156185909,
+    "time": "2026-11-21T07:42:53.000Z",
+    "seconds": 79,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156187352,
+    "time": "2026-11-21T07:48:48.000Z",
+    "seconds": 74,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156188796,
+    "time": "2026-11-21T07:54:55.000Z",
+    "seconds": 66,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156190240,
+    "time": "2026-11-21T08:00:49.000Z",
+    "seconds": 68,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156191683,
+    "time": "2026-11-21T08:06:48.000Z",
+    "seconds": 74,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156193127,
+    "time": "2026-11-21T08:12:23.000Z",
+    "seconds": 59,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156194570,
+    "time": "2026-11-21T08:18:05.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156196014,
+    "time": "2026-11-21T08:24:14.000Z",
+    "seconds": 73,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156197458,
+    "time": "2026-11-21T08:30:25.000Z",
+    "seconds": 70,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156198901,
+    "time": "2026-11-21T08:36:36.000Z",
+    "seconds": 84,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156200345,
+    "time": "2026-11-21T08:43:05.000Z",
+    "seconds": 63,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156201788,
+    "time": "2026-11-21T08:48:26.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156203232,
+    "time": "2026-11-21T08:54:20.000Z",
+    "seconds": 78,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156204675,
+    "time": "2026-11-21T09:00:58.000Z",
+    "seconds": 73,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156206119,
+    "time": "2026-11-21T09:07:06.000Z",
+    "seconds": 70,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156207563,
+    "time": "2026-11-21T09:13:11.000Z",
+    "seconds": 74,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156209006,
+    "time": "2026-11-21T09:19:16.000Z",
+    "seconds": 75,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156210450,
+    "time": "2026-11-21T09:25:51.000Z",
+    "seconds": 80,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156211893,
+    "time": "2026-11-21T09:32:43.000Z",
+    "seconds": 98,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156213337,
+    "time": "2026-11-21T09:40:26.000Z",
+    "seconds": 86,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156214781,
+    "time": "2026-11-21T09:47:50.000Z",
+    "seconds": 76,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156216224,
+    "time": "2026-11-21T09:54:32.000Z",
+    "seconds": 75,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156217668,
+    "time": "2026-11-21T10:01:22.000Z",
+    "seconds": 90,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156219111,
+    "time": "2026-11-21T10:08:35.000Z",
+    "seconds": 89,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156220555,
+    "time": "2026-11-21T10:15:01.000Z",
+    "seconds": 59,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156221998,
+    "time": "2026-11-21T10:20:35.000Z",
+    "seconds": 65,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156223442,
+    "time": "2026-11-21T10:25:57.000Z",
+    "seconds": 68,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156224886,
+    "time": "2026-11-21T10:32:12.000Z",
+    "seconds": 76,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156226329,
+    "time": "2026-11-21T10:38:36.000Z",
+    "seconds": 83,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156227773,
+    "time": "2026-11-21T10:44:50.000Z",
+    "seconds": 73,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156229216,
+    "time": "2026-11-21T10:51:03.000Z",
+    "seconds": 80,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156230660,
+    "time": "2026-11-21T10:57:54.000Z",
+    "seconds": 89,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156232104,
+    "time": "2026-11-21T11:04:58.000Z",
+    "seconds": 81,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156233547,
+    "time": "2026-11-21T11:11:34.000Z",
+    "seconds": 81,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156234991,
+    "time": "2026-11-21T11:16:53.000Z",
+    "seconds": 54,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156236434,
+    "time": "2026-11-21T11:22:14.000Z",
+    "seconds": 72,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156237878,
+    "time": "2026-11-21T11:28:27.000Z",
+    "seconds": 75,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156239321,
+    "time": "2026-11-21T11:33:50.000Z",
+    "seconds": 64,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156240765,
+    "time": "2026-11-21T11:39:01.000Z",
+    "seconds": 61,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156242209,
+    "time": "2026-11-21T11:44:50.000Z",
+    "seconds": 70,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156243652,
+    "time": "2026-11-21T11:50:48.000Z",
+    "seconds": 71,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156245096,
+    "time": "2026-11-21T11:56:20.000Z",
+    "seconds": 60,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156246539,
+    "time": "2026-11-21T12:01:18.000Z",
+    "seconds": 54,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   },
+   {
+    "block": 156247983,
+    "time": "2026-11-21T12:06:04.000Z",
+    "seconds": 55,
+    "startFee": 10000000,
+    "maxFee": 10000000,
+    "points": 7
+   }
+  ]
+ },
+ "live": {
+  "polls": 90,
+  "errors": 0,
+  "blocksRecorded": 5304,
+  "blocksSpanned": 5304,
+  "baseFeeGwei": {
+   "n": 5304,
+   "min": 0.01,
+   "p50": 0.01,
+   "p90": 0.01,
+   "p99": 0.01,
+   "max": 0.01
+  },
+  "maxOverStartInWindow": {
+   "n": 1003,
+   "min": 1,
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "max": 1
+  },
+  "windowsChecked": 1003,
+  "shareAbove": {
+   "1.00": 0,
+   "1.10": 0,
+   "1.50": 0,
+   "2.00": 0
+  },
+  "gasPriceOverBaseFee": {
+   "n": 90,
+   "min": 1,
+   "p50": 1,
+   "p90": 1,
+   "p99": 1,
+   "max": 1
+  },
+  "estimateGas": {
+   "n": 90,
+   "min": 21000,
+   "p50": 21000,
+   "p90": 21000,
+   "p99": 21000,
+   "max": 21000
+  },
+  "l1GasComponent": {
+   "n": 90,
+   "min": 0,
+   "p50": 0,
+   "p90": 0,
+   "p99": 0,
+   "max": 0
+  },
+  "l1BaseFeeEstimateWei": {
+   "n": 90,
+   "min": 0,
+   "p50": 0,
+   "p90": 0,
+   "p99": 0,
+   "max": 0
+  },
+  "pollsDetail": [
+   {
+    "at": "2026-11-21T12:13:56.812Z",
+    "block": 156250475,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:14:06.818Z",
+    "block": 156250529,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:14:16.824Z",
+    "block": 156250587,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:14:26.826Z",
+    "block": 156250643,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:14:36.839Z",
+    "block": 156250702,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:14:46.840Z",
+    "block": 156250763,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:14:56.854Z",
+    "block": 156250828,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:15:06.855Z",
+    "block": 156250883,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:15:16.858Z",
+    "block": 156250950,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:15:26.862Z",
+    "block": 156251011,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:15:36.877Z",
+    "block": 156251069,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:15:46.877Z",
+    "block": 156251129,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:15:56.890Z",
+    "block": 156251184,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:16:06.897Z",
+    "block": 156251252,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:16:16.906Z",
+    "block": 156251304,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:16:26.918Z",
+    "block": 156251365,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:16:36.925Z",
+    "block": 156251428,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:16:46.935Z",
+    "block": 156251490,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:16:56.948Z",
+    "block": 156251552,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:17:06.951Z",
+    "block": 156251613,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:17:16.964Z",
+    "block": 156251667,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:17:26.965Z",
+    "block": 156251727,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:17:36.965Z",
+    "block": 156251780,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:17:46.969Z",
+    "block": 156251837,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:17:56.979Z",
+    "block": 156251908,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:18:06.991Z",
+    "block": 156251965,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:18:16.998Z",
+    "block": 156252024,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:18:27.013Z",
+    "block": 156252080,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:18:37.015Z",
+    "block": 156252141,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:18:47.016Z",
+    "block": 156252192,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:18:57.026Z",
+    "block": 156252258,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:19:07.038Z",
+    "block": 156252308,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:19:17.052Z",
+    "block": 156252371,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:19:27.060Z",
+    "block": 156252424,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:19:37.070Z",
+    "block": 156252480,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:19:47.080Z",
+    "block": 156252537,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:19:57.094Z",
+    "block": 156252589,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:20:07.108Z",
+    "block": 156252651,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:20:17.114Z",
+    "block": 156252716,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:20:27.126Z",
+    "block": 156252764,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:20:37.136Z",
+    "block": 156252820,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:20:47.146Z",
+    "block": 156252877,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:20:57.158Z",
+    "block": 156252934,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:21:07.161Z",
+    "block": 156253007,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:21:17.164Z",
+    "block": 156253067,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:21:27.176Z",
+    "block": 156253112,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:21:37.182Z",
+    "block": 156253166,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:21:47.187Z",
+    "block": 156253224,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:21:57.199Z",
+    "block": 156253290,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:22:07.206Z",
+    "block": 156253353,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:22:17.210Z",
+    "block": 156253419,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:22:27.221Z",
+    "block": 156253479,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:22:37.228Z",
+    "block": 156253543,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:22:47.229Z",
+    "block": 156253596,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:22:57.243Z",
+    "block": 156253663,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:23:07.242Z",
+    "block": 156253721,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:23:17.244Z",
+    "block": 156253780,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:23:27.244Z",
+    "block": 156253834,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:23:37.245Z",
+    "block": 156253892,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:23:47.260Z",
+    "block": 156253941,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:23:57.263Z",
+    "block": 156254001,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:24:07.266Z",
+    "block": 156254053,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:24:17.273Z",
+    "block": 156254112,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:24:27.279Z",
+    "block": 156254167,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:24:37.284Z",
+    "block": 156254216,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:24:47.295Z",
+    "block": 156254272,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:24:57.302Z",
+    "block": 156254335,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:25:07.306Z",
+    "block": 156254405,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:25:17.321Z",
+    "block": 156254466,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:25:27.321Z",
+    "block": 156254520,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:25:37.336Z",
+    "block": 156254570,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:25:47.336Z",
+    "block": 156254624,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:25:57.350Z",
+    "block": 156254691,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:26:07.351Z",
+    "block": 156254752,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:26:17.359Z",
+    "block": 156254810,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:26:27.359Z",
+    "block": 156254855,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:26:37.368Z",
+    "block": 156254911,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:26:47.382Z",
+    "block": 156254969,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:26:57.388Z",
+    "block": 156255041,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:27:07.394Z",
+    "block": 156255099,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:27:17.394Z",
+    "block": 156255160,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:27:27.404Z",
+    "block": 156255218,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:27:37.407Z",
+    "block": 156255278,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:27:47.419Z",
+    "block": 156255333,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:27:57.427Z",
+    "block": 156255392,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:28:07.429Z",
+    "block": 156255454,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:28:17.433Z",
+    "block": 156255503,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:28:27.438Z",
+    "block": 156255572,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:28:37.440Z",
+    "block": 156255628,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   },
+   {
+    "at": "2026-11-21T12:28:47.440Z",
+    "block": 156255690,
+    "gasPriceWei": 10000000,
+    "estimateGas": 21000,
+    "l1GasComponent": 0,
+    "l1BaseFeeEstimateWei": 0
+   }
+  ]
+ }
+}

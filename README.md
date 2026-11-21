@@ -5,7 +5,7 @@
 <h1 align="center">SYNCRONIX Benchmarks</h1>
 
 <p align="center">
-  Does the research agent actually read and cite its sources, is wallet data verified, and what does each run cost?<br>
+  Does the research agent read and cite its sources, is wallet data verified, does the API behave as documented, and does a transfer preview stay valid?<br>
   <a href="https://syncronixai.xyz">Website</a> · <a href="https://github.com/SyncronixLabs/syncronix-docs">Docs</a> · <a href="https://github.com/SyncronixLabs/syncronix-research">Research</a> · <a href="https://github.com/SyncronixLabs/syncronix-docs/blob/main/whitepaper.md">Whitepaper</a> · <a href="CHANGELOG.md">Changelog</a>
 </p>
 
@@ -171,14 +171,112 @@ node harness/wallet-intel.mjs --wallets wallets.local.json --base https://syncro
 
 The harness waits 11 s between addresses to stay under the public limit of 6 funding traces per minute.
 
+## API conformance
+
+Does the live service refuse what the docs say it refuses? [`harness/api-conformance.mjs`](harness/api-conformance.mjs)
+sends 30 requests to the public API, each with an expected HTTP status and `error` code from
+[api.md](https://github.com/SyncronixLabs/syncronix-docs/blob/main/api.md), and checks that no response carries CORS
+headers. It is **free and has no side effects**:
+
+- transfer cases call the preview endpoint, which never signs or sends, and all are refused before any chain read;
+- cross-site cases are refused before anything runs, and their bodies are invalid anyway;
+- no research run, no AI call, no wallet, no key.
+
+| Group | Cases | What is checked |
+|---|---|---|
+| Transfer instructions | 23 | Caps (0.05 ETH mainnet, 1 ETH testnet), swaps, `all`, schedules, tokens, two recipients, `.eth` names, EIP-55 checksum, zero address, self-transfer, network mismatch, empty / too long / unrecognized, amounts (0, 19 decimals), malformed recipient, unknown network, no wallet, mixed or unexpected fields, non-JSON, wrong content type |
+| Same-site rule | 3 | Transfer preview, research run and AI wallet analysis from another website → `403 cross_site` |
+| Read endpoints | 3 | Health, quota and chain config answer `200` without CORS headers |
+| Optional successful preview | 1 | `--from` / `--to`: gas limit = estimate + 20 %, fee cap = 2 × gas price, tip 0, valid 60 s |
+
+### Latest results
+
+Production, 21 Nov 2026 12:15 UTC, from one client location (latency includes the network path to the server):
+
+| Measure | Result |
+|---|---|
+| Cases passed | **30/30** |
+| Responses with CORS headers | 0 |
+| Latency (client-side) | median 444 ms · min 430 ms · max 1,585 ms (first request) |
+| Successful preview (placeholder addresses) | gas estimate 21,000 → limit 25,200 (+20 % ✓) · fee cap = 2 × gas price ✓ · tip 0 ✓ · expires in 59 s ✓ |
+
+Raw data: [`results/2026-11-21-api-conformance.json`](results/2026-11-21-api-conformance.json).
+
+### Run it
+
+```bash
+node harness/api-conformance.mjs                                   # https://syncronixai.xyz
+node harness/api-conformance.mjs --base http://localhost:3100      # a self-hosted instance
+node harness/api-conformance.mjs --from 0x… --to 0x…               # add one successful preview (addresses are not saved)
+```
+
+Requests to the preview endpoint are paced 2.5 s apart (`--pace` in ms) to stay under 30 chain lookups per minute.
+The exit code is 1 if any case fails.
+
+## Fee headroom
+
+Does a 60-second transfer preview stay valid? SYNCRONIX previews a transfer with gas limit = estimate + 20 %, fee cap
+= 2 × `eth_gasPrice` and no tip. A transaction whose fee cap is below the block's base fee cannot be included.
+[`harness/fee-headroom.mjs`](harness/fee-headroom.mjs) measures how far the base fee and the gas estimate move inside
+60 s, using **only the official Robinhood Chain RPC**. It needs no SYNCRONIX endpoint, no wallet and no key.
+[`harness/fee-spike.mjs`](harness/fee-spike.mjs) then reads every block around a window of interest.
+
+| Part | What it reads |
+|---|---|
+| History | `--samples` windows over the last `--hours`; each window reads its start block and one block every 10 s up to 60 s (block headers, one batched request per window) |
+| Live | Every `--interval` s for `--live-minutes`: base fee of every block (`eth_feeHistory`), `eth_gasPrice`, `eth_estimateGas` for a plain transfer between placeholder addresses, the L1 data component (NodeInterface `gasEstimateL1Component`) |
+| Spike | Every block from `--before` s before to `--after` s after one block: peak, time above a 2× cap, longest stretch above it |
+
+### Latest results
+
+20–21 Nov 2026. The analysis is in the research note
+[Is a 2× fee cap enough for a 60-second transfer preview?](https://github.com/SyncronixLabs/syncronix-research/blob/main/notes/2026-11-fee-headroom.md)
+
+| Measure | Mainnet (4663) | Testnet (46630) |
+|---|---|---|
+| Windows checked: history / live | 288 / 1,581 (16,379 consecutive blocks) | 288 / 1,003 |
+| Max ÷ start base fee within 60 s: median · p99 · max (history) | 1.008 · 1.62 · **2.47** | 1.000 · 1.000 · 1.000 |
+| Same, live (every block) | 1.025 · 1.44 · 1.44 | 1.000 · 1.000 · 1.000 |
+| History windows above the 2× cap | **1 of 288** | 0 |
+| `eth_gasPrice` ÷ base fee | 0.967–1.051 | 1.000 |
+| `eth_estimateGas`, plain transfer | 21,000 in all 180 polls | 21,000 in all 90 polls |
+| L1 data component | 0 in all polls | 0 in all polls |
+
+The window above the cap at full resolution (`fee-spike.mjs`, block 119,573,026, 21 Nov 03:31:20 UTC):
+
+| Measure | Result |
+|---|---|
+| Above the cap from | 12 s after the start |
+| Blocks above the cap within 60 s | 440 of 564 |
+| Peak | 3.97 × the start, after 89 s |
+| Longest stretch above the cap | 97 s |
+
+The 10 s history sampling understated this window (2.47× vs. 3.97×), so history ratios are lower bounds. The
+second-largest window (block 119,353,116) peaked at 1.98× and never crossed the cap.
+
+Raw data: `results/2026-11-21-fee-headroom-{mainnet,testnet}.json`, `results/2026-11-21-fee-spike-mainnet-*.json`.
+
+### Run it
+
+```bash
+node harness/fee-headroom.mjs --network mainnet --hours 24 --samples 288 --live-minutes 30
+node harness/fee-headroom.mjs --network testnet --live-minutes 15
+node harness/fee-spike.mjs --block <block number> [--network testnet] [--before 30] [--after 180]
+```
+
+The mainnet run makes about 2,900 RPC calls over 30–40 minutes, batched and paced.
+
 ## Repository layout
 
 ```
 harness/research-quality.mjs   the research benchmark runner (streams and scores each run)
 harness/wallet-intel.mjs       the wallet benchmark runner (read-only, no AI calls)
+harness/api-conformance.mjs    documented refusals vs. the live API (free, no side effects)
+harness/fee-headroom.mjs       base fee and gas estimate movement within a 60 s preview (official RPC only)
+harness/fee-spike.mjs          every block around one window: peak and time above a 2× cap
 tasks/default.json             two-task set used for the published results
 tasks/one.json                 single task for the public service
-results/                       published results (JSON, wallet addresses replaced by W1, W2, …)
+results/                       published results (JSON; no personal addresses: wallets are W1, W2, …, requests use placeholders)
 ```
 
 History: [CHANGELOG.md](CHANGELOG.md) · Security: [SECURITY.md](SECURITY.md)

@@ -2,6 +2,14 @@
 
 Harnesses and results added or changed in this repository, newest first. Dates are UTC.
 
+## 2026-11-21
+
+- Added `harness/api-conformance.mjs`: 30 documented refusals and same-site checks against the live API, free and
+  without side effects. Result on production: 30/30 (`results/2026-11-21-api-conformance.json`).
+- Added `harness/fee-headroom.mjs` and `harness/fee-spike.mjs`: base fee and gas estimate movement within a 60 s
+  transfer preview, from the official Robinhood Chain RPC only. Results for mainnet and testnet, plus two mainnet
+  spikes at full resolution (`results/2026-11-21-fee-*.json`).
+
 ## 2026-11-20
 
 - Updated the release references to the current commit hashes of the production repository.
